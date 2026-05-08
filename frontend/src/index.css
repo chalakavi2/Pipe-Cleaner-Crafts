@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+input {
+  width: 250px;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+}
+
+button {
+  background: #7b1fa2;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+button:hover {
+  background: #ad1457;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .menuIcon {
+    display: block !important;
+  }
+}
